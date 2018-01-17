@@ -1,20 +1,22 @@
-
 package Chapter6;
+
 import java.util.Scanner;
+
 /**
- * Program to display which bidder has the better deal to the console 
- * 
+ * Program to display which bidder has the better deal to the console
+ *
  *
  * @author Anatoliy Sereda
  */
 public class P6 {
-        /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
-     */ 
-        private static String reply;
-    
+     */
+    private static String reply;
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -56,9 +58,10 @@ public class P6 {
 
     /**
      * Method to return money after conversion
+     *
      * @param dollars original money amount
      * @param currency money after conversion
-     * @return 
+     * @return currency after the conversion
      */
     public static double convert(double dollars, double currency) {
         if (dollars > 100) {
