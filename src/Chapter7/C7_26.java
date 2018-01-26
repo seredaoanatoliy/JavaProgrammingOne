@@ -39,7 +39,7 @@ public class C7_26 {
  
  }
  /**
-  * 
+  * check whether the amount of letters is the same
   * @param list1 comparison
   * @param list2 comparison
   * @return whether a string is identical

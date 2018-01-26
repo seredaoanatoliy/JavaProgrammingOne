@@ -41,14 +41,14 @@ public class P7 {
     }
     /**
      * display contents
-     * @param arrayone 
+     * @param arrayone amount of numbers in the array
      */
     public static void  displayArray(int [] arrayone) {
         // System.out.println("The contents of the array: " + array.toString(arrayone));
     }
 
 /**
- * 
+ * check the average
  * @param arrayone amount of numbers in array
  * @param numamount amount of numbers for average
  */

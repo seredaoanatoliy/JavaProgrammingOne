@@ -29,7 +29,7 @@ public class C7_9 {
   System.out.println("The minimum number is: " + min(numbers));
  }
  /**
-  * 
+  * It makes the minimum amount 8 for a password
   * @param array this is the 10 numbers
   * @return the lowest array
   */
