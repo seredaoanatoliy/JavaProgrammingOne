@@ -28,19 +28,30 @@ public class P7 {
        displayArray(arrayone);
 
     }
-    
+     /**Program to display counter
+      * 
+      * @param arrayone
+      * @param input 
+      */
     public static void fillArray(int [] arrayone, Scanner input) {
          for (int counter = 0; counter <  arrayone.length; counter++) {
             arrayone[counter] = input.nextInt();
             
         }
     }
-    
+    /**
+     * display contents
+     * @param arrayone 
+     */
     public static void  displayArray(int [] arrayone) {
         // System.out.println("The contents of the array: " + array.toString(arrayone));
     }
 
-
+/**
+ * 
+ * @param arrayone
+ * @param numamount 
+ */
 public static void averageArray(int [] arrayone, int numamount) {
         int sum = 0;
          for (int counter = 0; counter < arrayone.length; counter++) {

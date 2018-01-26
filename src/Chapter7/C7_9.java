@@ -28,7 +28,11 @@ public class C7_9 {
  
   System.out.println("The minimum number is: " + min(numbers));
  }
- 
+ /**
+  * 
+  * @param array
+  * @return 
+  */
  public static double min(double[] array) {
  
   double min = array[0];

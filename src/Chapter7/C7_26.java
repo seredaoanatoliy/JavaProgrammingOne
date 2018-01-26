@@ -38,7 +38,12 @@ public class C7_26 {
   }
  
  }
- 
+ /**
+  * 
+  * @param list1
+  * @param list2
+  * @return 
+  */
  public static boolean equals(int[] list1, int[] list2) {
  
   if (list1.length != list2.length)
