@@ -30,8 +30,8 @@ public class C7_9 {
  }
  /**
   * 
-  * @param array
-  * @return 
+  * @param array this is the 10 numbers
+  * @return the lowest array
   */
  public static double min(double[] array) {
  

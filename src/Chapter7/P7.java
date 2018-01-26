@@ -30,8 +30,8 @@ public class P7 {
     }
      /**Program to display counter
       * 
-      * @param arrayone
-      * @param input 
+      * @param arrayone amount of numbers
+      * @param input the next number entered
       */
     public static void fillArray(int [] arrayone, Scanner input) {
          for (int counter = 0; counter <  arrayone.length; counter++) {
@@ -49,8 +49,8 @@ public class P7 {
 
 /**
  * 
- * @param arrayone
- * @param numamount 
+ * @param arrayone amount of numbers in array
+ * @param numamount amount of numbers for average
  */
 public static void averageArray(int [] arrayone, int numamount) {
         int sum = 0;

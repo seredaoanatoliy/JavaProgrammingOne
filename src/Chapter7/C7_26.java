@@ -40,9 +40,9 @@ public class C7_26 {
  }
  /**
   * 
-  * @param list1
-  * @param list2
-  * @return 
+  * @param list1 comparison
+  * @param list2 comparison
+  * @return whether a string is identical
   */
  public static boolean equals(int[] list1, int[] list2) {
  
