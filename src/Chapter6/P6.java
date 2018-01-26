@@ -3,7 +3,7 @@ package Chapter6;
 import java.util.Scanner;
 
 /**
- * Program to display which bidder has the better deal to the console
+ * Program to display money conversions
  *
  *
  * @author Anatoliy Sereda
